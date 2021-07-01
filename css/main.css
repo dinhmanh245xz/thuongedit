@@ -57,7 +57,7 @@
 .col-img-size {
     padding-top: 33%;
     flex:1;
-    background: url('/img/Khao-khat-su-thanh-cong.jpg') top center / cover no-repeat;
+    background: url('../img/Khao-khat-su-thanh-cong.jpg') top center / cover no-repeat;
     margin-left: 9px;
     margin-right: 9px;
 }
@@ -183,19 +183,19 @@ button.snip0059.yellow {
 }
 .flex-img-1 {
   padding-top: 100%;
-  background: url('/img/startup-500px.jpg') top center / cover no-repeat;
+  background: url('../img/startup-500px.jpg') top center / cover no-repeat;
 }
 .flex-img-2 {
   padding-top: 100%;
-  background: url('/img/thay-doi-thoi-gian-500px.jpg') top center / cover no-repeat;
+  background: url('../img/thay-doi-thoi-gian-500px.jpg') top center / cover no-repeat;
 }
 .flex-img-3 {
   padding-top: 100%;
-  background: url('/img/tiet-kiem-500px.jpg') top center / cover no-repeat;
+  background: url('../img/tiet-kiem-500px.jpg') top center / cover no-repeat;
 }
 .flex-img-4 {
   padding-top: 100%;
-  background: url('/img/mat-huong-di-500px.jpg') top center / cover no-repeat;
+  background: url('../img/mat-huong-di-500px.jpg') top center / cover no-repeat;
 }
 .main-title {
  width: 23%;
@@ -218,7 +218,7 @@ button.snip0059.yellow {
 .main-banner {
   position: relative;
   padding-top: 56%;
-  background:url('/img/thoi-gian-de-thay-doi.jpg') top center / cover no-repeat;
+  background:url('../img/thoi-gian-de-thay-doi.jpg') top center / cover no-repeat;
 }
 .text-banner {
   position: absolute;
@@ -237,22 +237,22 @@ button.snip0059.yellow {
 
 .flex-img-01 {
   padding-top:100%;
-  background: url('/img/phuong-phap-kinh-doanh.jpg') top center / cover no-repeat;
+  background: url('../img/phuong-phap-kinh-doanh.jpg') top center / cover no-repeat;
 }
 .flex-img-02 {
   padding-top:100%;
-  background: url('/img/thau-hieu-ban-than.jpg') top center / cover no-repeat;
+  background: url('../img/thau-hieu-ban-than.jpg') top center / cover no-repeat;
 }
 .flex-img-03 {
   padding-top:100%;
-  background: url('/img/tu-duy-chien-luoc-thanh-cong.jpg') top center / cover no-repeat;
+  background: url('../img/tu-duy-chien-luoc-thanh-cong.jpg') top center / cover no-repeat;
 }
 .flex-img-04 {
   padding-top:100%;
-  background: url('/img/phat-trien-kinh-doanh-ben-vung.jpg') top center / cover no-repeat;
+  background: url('../img/phat-trien-kinh-doanh-ben-vung.jpg') top center / cover no-repeat;
 }
 .main-banner-snow {
-  background: url('/img/snow1.png') top center no-repeat;
+  background: url('../img/snow1.png') top center no-repeat;
 }
 .bg-fill {
   padding-top: 23%;
