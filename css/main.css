@@ -1,0 +1,262 @@
+*,*::before,*::after {
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+}
+/* root */
+:root {
+    --primary-color: #9f0808;
+}
+.clear::after ,
+#container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* root end */
+#header {
+    
+    top:0;
+    position: relative;
+    padding-top: 50%;
+    background: url('/img/mmss-01.jpg') top center / cover no-repeat;
+}   
+
+#gap-218215904 {
+    padding-top:30px;
+}
+.section-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-title b {
+    flex: 1;
+    height: 2px;
+    background-color: darkred;
+    opacity: 0.8;
+}
+#container .section-content-main {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.section-text {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    color: brown;
+}
+.main-section {
+    display: flex;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+/* media pc */
+.col-img-size {
+    padding-top: 33%;
+    flex:1;
+    background: url('/img/Khao-khat-su-thanh-cong.jpg') top center / cover no-repeat;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+.col-text-size {
+    flex:1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 70px;
+    
+}
+.text-center {
+    color: #ba0000;
+    font-size: 200%;
+}
+.text-desc {
+    font-size: 234%;
+    color: #0000ff;
+    font-weight: 900;
+}
+.text-khoa-hoc {
+    font-size: 125%;
+}
+ .color-text-khoa {
+    color: brown;
+}
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+button.snip0059 {
+  font-family: 'Raleway', Arial, sans-serif;
+  border: none;
+  background-color: #000000;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  padding: 15px 30px;
+  display: inline-block;
+  margin: 15px 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 1em;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+}
+button.snip0059:before {
+  content: '';
+  display: block;
+  border-radius: 3px;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 50%;
+  right: 50%;
+  background-color: #ffffff;
+  border-left: 2px solid rgba(255, 255, 255, 0.8);
+  border-right: 2px solid rgba(255, 255, 255, 0.8);
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+button.snip0059:hover,
+button.snip0059.hover {
+  color: #ffffff;
+  -webkit-animation: flashText 0.5s;
+  animation: flashText 0.5s;
+}
+button.snip0059:hover:before,
+button.snip0059.hover:before {
+  left: 12px;
+  right: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+  opacity: 0.8;
+}
+button.snip0059:active:before {
+  background-color: rgba(255, 255, 255, 0.3);
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+button.snip0059.blue {
+  background-color: #1e5d87;
+}
+button.snip0059.red {
+  background-color: #8e2a20;
+}
+button.snip0059.yellow {
+  background-color: #b66015;
+}
+@-webkit-keyframes flashText {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  50% {
+    color: transparent;
+  }
+  100% {
+    color: #fff;
+  }
+}
+@keyframes flashText {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  50% {
+    color: transparent;
+  }
+  100% {
+    color: #fff;
+  }
+}
+.col-column-display-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 0 0%;
+   
+}
+.flex-img-1 {
+  padding-top: 100%;
+  background: url('/img/startup-500px.jpg') top center / cover no-repeat;
+}
+.flex-img-2 {
+  padding-top: 100%;
+  background: url('/img/thay-doi-thoi-gian-500px.jpg') top center / cover no-repeat;
+}
+.flex-img-3 {
+  padding-top: 100%;
+  background: url('/img/tiet-kiem-500px.jpg') top center / cover no-repeat;
+}
+.flex-img-4 {
+  padding-top: 100%;
+  background: url('/img/mat-huong-di-500px.jpg') top center / cover no-repeat;
+}
+.main-title {
+ width: 23%;
+ display:block;
+ padding: 0 0%;
+}
+.flex-p {
+  font-size: 123%;
+    text-align: justify;
+    font-weight: 100;
+    line-height: 1.4;
+
+}
+.style-span {
+  color: red;
+}
+.section-banner {
+  position: relative;
+}
+.main-banner {
+  position: relative;
+  padding-top: 56%;
+  background:url('/img/thoi-gian-de-thay-doi.jpg') top center / cover no-repeat;
+}
+.text-banner {
+  position: absolute;
+  margin-top: -172px;
+  text-align: center;
+}
+.text-banner p {
+    color: #fff;
+    font-size: 101%;
+    font-family: sans-serif;
+    font-weight: 200;
+    padding: 0 82px;
+    margin-top: 14px;
+    text-align: center;
+}
+
+.flex-img-01 {
+  padding-top:100%;
+  background: url('/img/phuong-phap-kinh-doanh.jpg') top center / cover no-repeat;
+}
+.flex-img-02 {
+  padding-top:100%;
+  background: url('/img/thau-hieu-ban-than.jpg') top center / cover no-repeat;
+}
+.flex-img-03 {
+  padding-top:100%;
+  background: url('/img/tu-duy-chien-luoc-thanh-cong.jpg') top center / cover no-repeat;
+}
+.flex-img-04 {
+  padding-top:100%;
+  background: url('/img/phat-trien-kinh-doanh-ben-vung.jpg') top center / cover no-repeat;
+}
+.main-banner-snow {
+  background: url('/img/snow1.png') top center no-repeat;
+}
+.bg-fill {
+  padding-top: 23%;
+  padding-bottom: 10%;
+  opacity: 0.8;
+  background-color: rgb(160, 63, 28);
+}
